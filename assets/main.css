@@ -1,0 +1,478 @@
+body {
+	background: #d3c276;
+}
+
+#align {
+	display: flex;
+  align-items: center;
+  justify-content: center;	
+  height: 100vh;
+}
+
+#stage {
+	width: 900px;
+	height: 556px;
+	margin: auto;
+	background: rgb(173, 154, 84);
+	position: relative;
+}
+
+#triangle {
+	width: 0;
+	height: 0;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	border-bottom: 150px solid yellow;
+	position: absolute;
+	top: 203px;
+	left: 60px;
+}
+
+#square {
+	width: 150px;
+	height: 150px;
+	background: red;
+	top: 203px;
+	left: 270px;
+	position: absolute;
+
+	/* uncomment to add keyframe animation */
+	/* animation: spin 2s infinite; */
+
+}
+
+#circle {
+	width: 150px;
+	height: 150px;
+	background: blue;
+	border-radius: 150px;
+	top: 203px;
+	left: 480px;
+	position: absolute;
+}
+
+#table1 {
+	width: 150px;
+	height: 150px;
+	background: #6c6c6c;
+	
+	top: 406px;
+	left: 347px;
+	position: absolute;
+	clip-path: polygon(0 0, 100% 9%, 100% 100%, 0% 100%);
+
+
+	
+}
+
+#table2 {
+	width: 150px;
+	height: 150px;
+	background: #b8b8b8;
+	
+	top: 406px;
+	left: 497px;
+	position: absolute;
+	clip-path: polygon(0 9%, 37% 0, 36% 100%, 0% 100%);
+
+
+}
+#table3 {
+	width: 150px;
+	height: 150px;
+	background: #ffffff;
+	
+	top: 269px;
+	left: 346px;
+	position: absolute;
+	clip-path: polygon(36% 82%, 100% 88%, 100% 100%, 0 91%);
+
+
+}
+#table4 {
+	width: 150px;
+	height: 150px;
+	background: #ffffff;
+	
+	top: 269px;
+	left: 496px;
+	position: absolute;
+	clip-path: polygon(0 88%, 37% 91%, 0 100%, 0 100%);
+
+
+}
+#book1 {
+	width: 150px;
+	height: 150px;
+	background: #9c998f;
+	
+	top: 264px;
+	left: 380px;
+	position: absolute;
+	clip-path: polygon(29% 79%, 100% 79%, 100% 100%, 29% 100%);
+
+
+}
+#book1-1 {
+	width: 106px;
+	height: 8px;
+	background: #7f7f7f;
+	
+	top: 406px;
+	left: 424px;
+	position: absolute;
+
+
+
+}
+#book1-2 {
+	width: 106px;
+	height: 3px;
+	background: #0a0a0a;
+	
+	top: 412px;
+	left: 424px;
+	position: absolute;
+
+
+}
+#book1-3 {
+	width: 106px;
+	height: 3px;
+	background: #0a0a0a;
+	
+	top: 383px;
+	left: 424px;
+	position: absolute;
+
+
+}
+#book1-4 {
+	width: 13px;
+	height: 47px;
+	background: #d2d1d1;
+	
+	top: 369px;
+	left: 410px;
+	position: absolute;
+	transform: skew(30deg, 20deg) rotate(0.58turn);
+
+
+
+}
+#book1-5 {
+	width: 14px;
+	height: 33px;
+	background: #7b857b;
+	
+	top: 359px;
+	left: 419px;
+	position: absolute;
+	transform: skew(44deg, 18deg) rotate(0.7turn);
+
+
+
+}
+#book1-6 {
+	width: 113px;
+    height: 20px;
+    background: #9e9fa6;
+    top: 363px;
+    left: 428px;
+    position: absolute;
+
+
+}
+#book1-6-1 {
+	width: 8px;
+    height: 136px;
+    background: #eaddc3;
+    top: 290px;
+    left: 489px;
+    position: absolute;
+    transform: skew(44deg, 18deg) rotate(0.7turn);
+
+
+
+}
+#book1-6-2 {
+	width: 8px;
+    height: 136px;
+    background: #eaddc3;
+    top: 290px;
+    left: 464px;
+    position: absolute;
+    transform: skew(44deg, 18deg) rotate(0.7turn);
+
+
+
+}
+
+#book1-7 {
+	width: 88px;
+    height: 10px;
+    background: #67523d;
+    top: 353px;
+    left: 431px;
+    position: absolute;
+
+
+}
+#book1-8 {
+    width: 88px;
+    height: 1px;
+    background: #100e0c;
+    top: 362px;
+    left: 431px;
+    position: absolute;
+}
+#book1-9 {
+	width: 6px;
+    height: 135px;
+    background: #f0ddb6;
+    top: 282px;
+    left: 469px;
+    position: absolute;
+    transform: skew(44deg, 18deg) rotate(0.7turn);
+
+
+
+}
+
+#book1-10 {
+	width: 6px;
+    height: 30px;
+    background: #7b8279;
+    top: 356px;
+    left: 422px;
+    position: absolute;
+    transform: skew(30deg, 20deg) rotate(0.58turn);
+}
+#book1-11 {
+	width: 113px;
+    height: 5px;
+    background: #7c7e8b;
+    top: 374px;
+    left: 428px;
+    position: absolute;
+
+
+}
+#book1-12 {
+	width: 113px;
+    height: 4px;
+    background: #77787f;
+    top: 366px;
+    left: 428px;
+    position: absolute;
+
+
+}
+
+#book1-13 {
+	width: 6px;
+    height: 17px;
+    background: #a8b3a6;
+    top: 346px;
+    left: 425px;
+    position: absolute;
+    transform: skew(30deg, 20deg) rotate(0.58turn);
+}
+
+#leaf1 {
+	width: 23px;
+    height: 93px;
+    background: #31582a;
+    top: 218px;
+    left: 438px;
+    position: absolute;
+    clip-path: polygon(48% 4%, 34% 29%, 27% 57%, 23% 97%, 28% 98%, 32% 57%, 39% 30%, 55% 4%);
+    transform: skew(46deg, 20deg) rotate(0.58turn);
+}
+#leaf2 {
+	width: 23px;
+    height: 93px;
+    background: #32592c;
+    top: 218px;
+    left: 464px;
+    position: absolute;
+    clip-path: polygon(48% 4%, 34% 29%, 27% 57%, 23% 97%, 28% 98%, 32% 57%, 39% 30%, 55% 4%);
+    transform: skew(21deg, 20deg) rotate(0.58turn);
+}
+#leaf3 {
+	width: 23px;
+    height: 93px;
+    background: #305629;
+    top: 218px;
+    left: 454px;
+    position: absolute;
+    clip-path: polygon(48% 4%, 34% 29%, 27% 57%, 23% 97%, 28% 98%, 32% 57%, 39% 30%, 55% 4%);
+    clip-path: polygon(48% 4%, 34% 29%, 27% 57%, 23% 97%, 28% 98%, 32% 57%, 39% 30%, 55% 4%);
+    transform: skew(39deg, 20deg) rotate(0.58turn);
+    transform: skew(33deg, 20deg) rotate(0.58turn);
+}
+#leaf4 {
+	width: 23px;
+    height: 118px;
+    background: #37672f;
+    top: 199px;
+    left: 446px;
+    position: absolute;
+    clip-path: polygon(48% 4%, 34% 29%, 27% 57%, 23% 97%, 28% 98%, 32% 57%, 39% 30%, 55% 4%);
+    transform: skew(37deg, 20deg) rotate(0.58turn);
+}
+#leaf5 {
+	width: 23px;
+    height: 118px;
+    background: #4c8243;
+    top: 198px;
+    left: 459px;
+    position: absolute;
+    clip-path: polygon(48% 4%, 34% 29%, 27% 57%, 23% 97%, 28% 98%, 32% 57%, 39% 30%, 55% 4%);
+    transform: skew(27deg, 20deg) rotate(0.58turn);
+}
+
+#leaf6 {
+    width: 54px;
+    height: 47px;
+    background: #4c8243;
+    top: 220px;
+    left: 432px;
+    position: absolute;
+    clip-path: polygon(38% 12%, 28% 37%, 26% 60%, 36% 85%, 61% 100%, 65% 78%, 66% 60%, 59% 31%);
+    transform: skew(0deg, 0deg) rotate(0turn);
+}
+
+#leaf7 {
+    width: 54px;
+    height: 31px;
+    background: #466941;
+    top: 238px;
+    left: 445px;
+    position: absolute;
+    clip-path: polygon(38% 12%, 28% 37%, 26% 60%, 36% 85%, 61% 100%, 65% 78%, 66% 60%, 59% 31%);
+    transform: skew(0deg, 0deg) rotate(0.1turn);
+}
+#leaf8 {
+	width: 27px;
+    height: 67px;
+    background: #395e33;
+    top: 196px;
+    left: 472px;
+    position: absolute;
+    clip-path: polygon(48% 4%, 34% 29%, 27% 57%, 23% 97%, 28% 98%, 32% 57%, 39% 30%, 55% 4%);
+    transform: skew(32deg, 20deg) rotate(0.1turn);
+}
+#leaf9 {
+	width: 35px;
+    height: 20px;
+    background: #7cb274;
+    top: 197px;
+    left: 478px;
+    position: absolute;
+    clip-path: polygon(38% 12%, 28% 37%, 26% 60%, 36% 85%, 61% 100%, 65% 78%, 66% 60%, 59% 31%);
+    transform: skew(0deg, 0deg) rotate(0.21turn);
+}
+#flower1 {
+	width: 35px;
+    height: 20px;
+    background: #d7d8d782;
+    background: #d7d8d780;
+    top: 231px;
+    left: 471px;
+    position: absolute;
+    clip-path: polygon(38% 12%, 28% 37%, 26% 60%, 36% 85%, 61% 100%, 65% 78%, 66% 60%, 59% 31%);
+    transform: skew(0deg, 0deg) rotate(0.21turn);
+}
+#flower2 {
+	width: 60px;
+    height: 30px;
+    background: #d7d8d782;
+    background: #e5f3e5b0;
+    top: 218px;
+    left: 467px;
+    position: absolute;
+    clip-path: polygon(38% 12%, 28% 37%, 26% 60%, 36% 85%, 61% 100%, 65% 78%, 66% 60%, 59% 31%);
+    transform: skew(0deg, 0deg) rotate(0.79turn);
+}
+#flower3 {
+	width: 49px;
+    height: 16px;
+    background: #d7d8d782;
+    background: #e5f3e5b0;
+    top: 221px;
+    left: 446px;
+    position: absolute;
+    clip-path: polygon(38% 12%, 28% 37%, 26% 60%, 36% 85%, 61% 100%, 65% 78%, 66% 60%, 59% 31%);
+    transform: skew(0deg, 0deg) rotate(0.79turn);
+}
+#flower4 {
+	width: 75px;
+    height: 50px;
+    background: #d7d8d782;
+    background: #e5f3e5b0;
+    top: 221px;
+    left: 446px;
+    position: absolute;
+    clip-path: polygon(38% 12%, 28% 37%, 26% 60%, 36% 85%, 61% 100%, 65% 78%, 66% 60%, 59% 31%);
+    transform: skew(0deg, 0deg) rotate(0.18turn);
+}
+
+
+#vase1 {
+	
+		display: block;
+    background: black;
+    border-radius: 50%;
+    height: 50px;
+    width: 51px;
+    margin: 0;
+    top: 300px;
+    left: 443px;
+    position: absolute;
+    background: radial-gradient(circle at 17px 9px, #ffffff, #252424);
+
+}
+
+#vase2 {
+	width: 13px;
+    height: 9px;
+    top: 292px;
+    left: 462px;
+    position: absolute;
+	background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(173,173,173,1) 0%, rgba(241,241,241,1) 48%, rgba(143,143,143,1) 100%, rgba(0,0,0,1) 100%);
+}
+
+
+
+
+
+
+/* animations */
+
+/*
+#clip:hover {
+	transform: rotate(1200deg);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes move {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+
+*/
